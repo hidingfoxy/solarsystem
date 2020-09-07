@@ -1,0 +1,56 @@
+@font-face {
+  font-family: porsche;
+  src: url('Fonts/porsche.ttf');
+}
+body, html {
+	height: 100%;
+	margin: 0;
+}
+.screen {
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+.text {
+	color: #CC00FF;
+	font-family: porsche;
+	font-size: 30px;
+	letter-spacing: 5px;
+	text-align: center;
+	padding: 20px 0;
+	padding-left: 50px;
+	padding-right: 44px;
+}
+
+.screenhalf {
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.plank {
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	padding: 70px 0;
+}
+.plank p{
+	font-family: Courier New;
+	font-size: 18px;
+	text-align: center;
+	line-height: 1.7;
+	width: 60%;
+	margin: 10px;
+}
+a {
+	color: white;
+}
